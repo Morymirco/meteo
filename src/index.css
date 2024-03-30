@@ -56,7 +56,19 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+input{
+  border: 1px solid #1a1a1a;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+
+}
+input:focus{
+  border: 1px solid #646cff;
+  background-color: #747bff0f;
 }
 .box {
   border-radius: 5px;
